@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
 
 .clear {
   clear: both;
@@ -48,3 +49,11 @@ hr {
   clear:both;
 }
 
+h1 {
+  font-family: 'Thasadith', sans-serif;
+  letter-spacing: -1.5 px;
+}
+
+h2 {
+  font-family: 'Thasadith', sans-serif;
+}
