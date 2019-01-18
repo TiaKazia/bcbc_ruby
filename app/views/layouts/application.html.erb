@@ -11,14 +11,16 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="circle">
-          <br />
-          a little
-          <br />
-          health
-          <br />
-          inspiration
-        </div>
+        <%= link_to root_path, class: 'logo' do%>
+          <div class="circle">
+            <br />
+            a little
+            <br />
+            health
+            <br />
+            inspiration
+          </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
           For when you need a healthy reminder
@@ -41,7 +43,7 @@
       <div class="container">
         <div class="row">
             <div class="col-6">
-              <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+              <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
             </div>
           <div class="col-6 footer-blurb">
             Proudly hacked by <a href="https://kazialuceportfolio.netlify.com">[Kazia]</a><br />
